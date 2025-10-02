@@ -68,7 +68,7 @@ function showSection(sectionId) {
     currentLesson = null;
     
     // Update browser URL without refreshing
-    const newUrl = sectionId === 'home' ? 'main.html' : `main.html#${sectionId}`;
+    const newUrl = sectionId === 'home' ? 'index.html' : `index.html#${sectionId}`;
     window.history.pushState({section: sectionId}, '', newUrl);
 }
 
@@ -109,7 +109,7 @@ function showLesson(lessonId) {
         }, 100);
         
         // Update browser URL
-        window.history.pushState({lesson: lessonId}, '', `main.html#${lessonId}`);
+        window.history.pushState({lesson: lessonId}, '', `index.html#${lessonId}`);
     }
 }
 
