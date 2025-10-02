@@ -26,11 +26,11 @@
 <body>
     <nav class="main-nav">
         <div class="nav-container">
-            <a href="main.html" class="site-title">2BAC Maths Wiki</a>
+            <a href="index.html" class="site-title">2BAC Maths Wiki</a>
             <div class="nav-links">
-                <a href="main.html" onclick="showSection('home')" class="nav-link active">Accueil</a>
-                <a href="main.html#algorithms" onclick="showSection('algorithms')" class="nav-link">Algorithmes</a>
-                <a href="main.html#functions" onclick="showSection('functions')" class="nav-link">Fonctions</a>
+                <a href="index.html" onclick="showSection('home')" class="nav-link active">Accueil</a>
+                <a href="index.html#algorithms" onclick="showSection('algorithms')" class="nav-link">Algorithmes</a>
+                <a href="index.html#functions" onclick="showSection('functions')" class="nav-link">Fonctions</a>
                 <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()" title="Basculer le mode sombre">
                     <span class="theme-icon">🌙</span>
                 </button>
@@ -177,8 +177,8 @@
                     <h3>Qu'est-ce qu'une fonction réciproque ?</h3>
                     <p>La fonction réciproque (ou inverse) d'une fonction $f$, notée $f^{-1}$, est une fonction qui "annule" l'effet de $f$. Si $f(a) = b$, alors $f^{-1}(b) = a$.</p>
                     <ul>
-                        <li>$f^{-1}(f(x)) = x$ pour tout $x$ dans le domaine de $f$</li>
-                        <li>$f(f^{-1}(x)) = x$ pour tout $x$ dans le domaine de $f^{-1}$</li>
+                        <li>$f^{-1}(f(x)) = x$ pour tout $x$ dans le doe de $f$</li>
+                        <li>$f(f^{-1}(x)) = x$ pour tout $x$ dans le doe de $f^{-1}$</li>
                         <li>Le graphique de $f^{-1}$ est la réflexion de $f$ par rapport à la droite $y = x$</li>
                         <li>Une fonction n'a de réciproque que si elle est bijective (injective et surjective)</li>
                     </ul>
@@ -307,7 +307,7 @@
                 </div>
             </div>
         </section>
-    </main>
+    </>
 
     <script src="main.js"></script>
     <script src="lessons/binary-search.js"></script>
